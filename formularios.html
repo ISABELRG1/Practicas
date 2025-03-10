@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+
+<body>
+    <center>
+        <h1>FORMULARIOS</h1>
+        <hr>
+    </center>
+    <form action="index.php" method="post" enctype="multipart/form-data">
+        <table border width="80%" align="center">
+            <tr>
+                <th>
+                    <h3> CAMPO</h3>
+                </th>
+                <th>
+                    <h3> VISTA</h3>
+                </th>
+            </tr>
+            <tr>
+                <td>1.CAMPO DE TEXTO</td>
+                <td><input type="text" placaholder="INTRODUCE TU NOMBRE" maxlength="20" name="nombre" id="nombre"
+                        required>
+                </td>
+            </tr>
+            <tr>
+                <td>2.CAMPO DE PASSWORD</td>
+                <td><input type="password">
+                </td>
+
+            </tr>
+            <tr>
+                <td>3.BOTON OPCION</td>
+                <td>
+                    <input type="radio" name="sexo" checked><br>
+                    <input type="radio" name="sexo">
+
+                </td>
+            <tr>
+                <td>4.CAMPO OCULTO</td>
+                <td>
+                    <input type="hidden" value="100"><br>
+
+                </td>
+            <tr>
+                <td>5.BOTON ENVIAR</td>
+                <td>
+                    <input type="submit" value="Enviar"><br>
+                </td>
+            <tr>
+                <td>6.CAMPO COLOR</td>
+                <td>
+                    <input type="color"><br>
+
+                </td>
+            </tr>
+            <tr>
+                <td>7.CAMPO FECHA</td>
+                <td>
+                    <input type="date"><br>
+
+                </td>
+            </tr>
+            <tr>
+                <td>8.CAMPO HORA</td>
+                <td>
+                    <input type="time"><br>
+
+                </td>
+            </tr>
+            <tr>
+                <td>9.CAMPO FECHA Y HORA LOCAL</td>
+                <td>
+                    <input type="datetime-local"><br>
+
+                </td>
+            </tr>
+            <tr>
+                <td>10.CAMPO FECHA Y HORA</td>
+                <td>
+                    <input type="datetime"><br>
+
+                </td>
+            </tr>
+            <tr>
+                <td>11.CAMPO EMAIL</td>
+                <td>
+                    <input type="email"><br>
+
+                </td>
+            </tr>
+            <tr>
+                <td>12.CAMPO ARCHIVO</td>
+                <td>
+                    <input type="file"><br>
+
+                </td>
+            </tr>
+            <tr>
+                <td>13.CAMPO IMAGEN</td>
+                <td>
+                    <input type="image" src="a.jpeg"><br>
+
+                </td>
+            </tr>
+            <tr>
+                <td>14.CAMPO MES</td>
+                <td>
+                    <input type="month"><br>
+
+                </td>
+            </tr>
+            <tr>
+                <td>15.CAMPO NUMERO</td>
+                <td>
+                    <input type="number"><br>
+
+                </td>
+            </tr>
+            <tr>
+                <td>16.CAMPO RANGO</td>
+                <td>
+                    <input type="range"><br>
+
+                </td>
+            </tr>
+            <tr>
+                <td>17.CAMPO BORRAR</td>
+                <td>
+                    <input type="reset" value="BORRAR"><br>
+
+                </td>
+            </tr>
+            <tr>
+                <td>18.CAMPO BUSQUEDA</td>
+                <td>
+                    <input type="search"><br>
+
+                </td>
+            </tr>
+            <tr>
+                <td>19.CAMPO TELEFONO</td>
+                <td>
+                    <input type="tel"><br>
+
+                </td>
+            </tr>       
+            <tr>
+                <td>20.CAMPO URL</td>
+                <td>
+                    <input type="url"><br>
+
+                </td>
+            </tr>
+            <tr>
+                <td>21.CAMPO SEMANA</td>
+                <td>
+                    <input type="week"><br>
+
+                </td>
+            </tr>
+            <tr>
+                <td>22.BOTON GENERICO</td>
+                <td>
+                    <input type="button" value="HOLA"><br>
+
+                </td>
+            </tr>
+            <tr>
+                <td>23.AREA DE TEXTO </td>
+                <td>
+                    <textarea name="" id=""></textarea><br>
+
+                </td>
+            </tr>
+            <tr>
+                <td>24.COMBOBOX DE TEXTO </td>
+                <td>
+                    <select name="" id="">
+                        <option value="">Seleccione</option>
+                        <option value="">OP 1</option>
+                        <option value="">OP 2</option>
+                        <option value="">OP 3</option>
+                    </select><br>
+
+                </td>
+            </tr>
+            <tr>
+                <td>25.ETIQUETA </td>
+                <td>
+                    <label for="">SOY UNA ETIQUETA</label><br>
+
+                </td>
+            </tr>
+            <tr>
+                <td>26.COMBOBOX DE TEXTO </td>
+                <td>
+                    <select name="" id="">
+                        <option value="">Seleccione</option>
+                        <option value="">OP 1</option>
+                        <option value="">OP 2</option>
+                        <option value="">OP 3</option>
+                    </select><br>
+
+                </td>
+            </tr>
+            <tr>
+                <td>27.OTRO BOTON GENERICO</td>
+                    <td><button>BOTON</button>  </td>
+                </tr>
+
+            <tr>
+                <td>28.FIELDSET</td>
+                    <td>
+                      <Fieldset>
+                        <legend>inicio de sesion</legend>
+                      EMAIL: <br>
+                      <input type="email"><br>
+                       PASSWORD:
+                       <input type="password"><br>
+                    <button>Enviar</button>
+                </Fieldset>
+                </td>
+            </tr>
+
+            <tr>
+            <td>29.BARRA DE PROGRESO</td>
+            <td><progress></progress>  </td>
+        </tr>
+        
+        <tr>
+            <td>30.DATALIST</td>
+            <td>
+                <input type="text" list="datalist">  
+                <datalist id="datalist">
+                    <option value="AMERICA">AMERICA</option>
+                    <option value="CHIVAS">CHIVAS</option>
+                    <option value="CHEMOS">CHEMOS</option>
+
+                </datalist> 
+            </td>
+        </tr>
+        </table>
+    </form>
+</body>
+
+</html>

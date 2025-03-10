@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mis Videos</title>
+    <style>
+        .video-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .video-item {
+            margin: 20px;
+            width: 300px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Mis Videos</h1>
+
+    <h2>Videos de TikTok</h2>
+    <div class="video-container">
+        <div class="video-item">
+            <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@username/video/1234567890" data-video-id="1234567890" style="max-width: 605px; min-width: 325px;">
+                <section> </section>
+            </blockquote>
+            <script async src="https://www.tiktok.com/embed.js"></script>
+        </div>
+        <div class="video-item">
+            <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@username/video/1234567891" data-video-id="1234567891" style="max-width: 605px; min-width: 325px;">
+                <section> </section>
+            </blockquote>
+            <script async src="https://www.tiktok.com/embed.js"></script>
+        </div>
+        <div class="video-item">
+            <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@username/video/1234567892" data-video-id="1234567892" style="max-width: 605px; min-width: 325px;">
+                <section> </section>
+            </blockquote>
+            <script async src="https://www.tiktok.com/embed.js"></script>
+        </div>
+    </div>
+
+    <h2>Videos de YouTube</h2>
+    <div class="video-container">
+        <div class="video-item">
+            <iframe width="300" height="200" src="https://www.youtube.com/embed/VIDEO_ID_1" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div class="video-item">
+            <iframe width="300" height="200" src="https://www.youtube.com/embed/VIDEO_ID_2" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div class="video-item">
+            <iframe width="300" height="200" src="https://www.youtube.com/embed/VIDEO_ID_3" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <h2>Multimedia 3D</h2>
+    <div class="video-container">
+        <div class="video-item">
+            <model-viewer src="RUTA_AL_ARCHIVO_GLB_1" alt="Modelo 3D 1" auto-rotate camera-controls></model-viewer>
+        </div>
+        <div class="video-item">
+            <model-viewer src="RUTA_AL_ARCHIVO_GLB_2" alt="Modelo 3D 2" auto-rotate camera-controls></model-viewer>
+        </div>
+        <div class="video-item">
+            <model-viewer src="RUTA_AL_ARCHIVO_GLB_3" alt="Modelo 3D 3" auto-rotate camera-controls></model-viewer>
+        </div>
+    </div>
+
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+</body>
+</html>
